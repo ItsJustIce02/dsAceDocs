@@ -1,0 +1,944 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
+    
+    
+      
+        <title>Features and commands - Acebot</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.33e2939f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="light-blue">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#features-and-commands" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Acebot" class="md-header__button md-logo" aria-label="Acebot" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Acebot
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Features and commands
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="light-blue" type="radio" name="__palette" id="__palette_1">
+          <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
+          </label>
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="light-blue" type="radio" name="__palette" id="__palette_2">
+          <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
+          </label>
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Acebot" class="md-nav__button md-logo" aria-label="Acebot" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Acebot
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mods/" class="md-nav__link">
+        Modules
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Features and commands
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Features and commands
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    Configuration
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aprefix" class="md-nav__link">
+    a!prefix 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aconfig" class="md-nav__link">
+    a!config
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aset" class="md-nav__link">
+    a!set
+  </a>
+  
+    <nav class="md-nav" aria-label="a!set">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modch" class="md-nav__link">
+    modch 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#events" class="md-nav__link">
+    events 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#msglogs" class="md-nav__link">
+    msglogs 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#areset" class="md-nav__link">
+    a!reset
+  </a>
+  
+    <nav class="md-nav" aria-label="a!reset">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modch_1" class="md-nav__link">
+    modch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#events_1" class="md-nav__link">
+    events 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fun" class="md-nav__link">
+    Fun
+  </a>
+  
+    <nav class="md-nav" aria-label="Fun">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#afox-fox-type" class="md-nav__link">
+    a!fox [Fox type]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aboop-member" class="md-nav__link">
+    a!boop [member]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aslap-member" class="md-nav__link">
+    a!slap [member]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apat-member" class="md-nav__link">
+    a!pat [member]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ahug-member" class="md-nav__link">
+    a!hug [member]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auwu" class="md-nav__link">
+    a!uwu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#akill-member" class="md-nav__link">
+    a!kill [member]
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nonitrotm" class="md-nav__link">
+    NoNitro™
+  </a>
+  
+    <nav class="md-nav" aria-label="NoNitro™">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nmsg" class="md-nav__link">
+    nmsg:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extras" class="md-nav__link">
+    Extras
+  </a>
+  
+    <nav class="md-nav" aria-label="Extras">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ainfo" class="md-nav__link">
+    a!info
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auptime" class="md-nav__link">
+    a!uptime
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aguildinfo" class="md-nav__link">
+    a!guildinfo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auserinfo" class="md-nav__link">
+    a!userinfo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../helplinks/" class="md-nav__link">
+        Help
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changes/" class="md-nav__link">
+        Changelog
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    Configuration
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aprefix" class="md-nav__link">
+    a!prefix 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aconfig" class="md-nav__link">
+    a!config
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aset" class="md-nav__link">
+    a!set
+  </a>
+  
+    <nav class="md-nav" aria-label="a!set">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modch" class="md-nav__link">
+    modch 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#events" class="md-nav__link">
+    events 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#msglogs" class="md-nav__link">
+    msglogs 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#areset" class="md-nav__link">
+    a!reset
+  </a>
+  
+    <nav class="md-nav" aria-label="a!reset">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modch_1" class="md-nav__link">
+    modch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#events_1" class="md-nav__link">
+    events 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fun" class="md-nav__link">
+    Fun
+  </a>
+  
+    <nav class="md-nav" aria-label="Fun">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#afox-fox-type" class="md-nav__link">
+    a!fox [Fox type]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aboop-member" class="md-nav__link">
+    a!boop [member]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aslap-member" class="md-nav__link">
+    a!slap [member]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apat-member" class="md-nav__link">
+    a!pat [member]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ahug-member" class="md-nav__link">
+    a!hug [member]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auwu" class="md-nav__link">
+    a!uwu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#akill-member" class="md-nav__link">
+    a!kill [member]
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nonitrotm" class="md-nav__link">
+    NoNitro™
+  </a>
+  
+    <nav class="md-nav" aria-label="NoNitro™">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nmsg" class="md-nav__link">
+    nmsg:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extras" class="md-nav__link">
+    Extras
+  </a>
+  
+    <nav class="md-nav" aria-label="Extras">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ainfo" class="md-nav__link">
+    a!info
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auptime" class="md-nav__link">
+    a!uptime
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aguildinfo" class="md-nav__link">
+    a!guildinfo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auserinfo" class="md-nav__link">
+    a!userinfo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="features-and-commands">Features and commands</h1>
+<p>This bot has many features from random fun commands to helpful moderation tools.<br />
+This part of the documentation shows all kinds of commands and things with descriptions.</p>
+<h2 id="configuration">Configuration</h2>
+<p>This bot comes with some configuration on it. You can change things like prefix and more coming soon.</p>
+<h3 id="aprefix">a!prefix <prefix></h3>
+<p>Changes the prefix for your server.
+Example: <code>a!prefix t!</code>  </p>
+<h3 id="aconfig">a!config</h3>
+<p>Shows the configuration for your server.</p>
+<h3 id="aset">a!set</h3>
+<p>Sets config values (Such as mod logging.)  </p>
+<h5 id="modch">modch <text channel></h5>
+<p>Changes where moderation logs (ban, kick, etc.) goes.  </p>
+<h5 id="events">events <text channel></h5>
+<p>Changes where event logs goes. (Such as config updates and message logging)  </p>
+<h5 id="msglogs">msglogs <enable | disable></h5>
+<p>Enable or disable message logs. (edits and deletes)  </p>
+<h3 id="areset">a!reset</h3>
+<p>Resets config values (Such as event logging.)  </p>
+<h5 id="modch_1">modch</h5>
+<p>Resets the mod log channel value.  </p>
+<h5 id="events_1">events <text channel></h5>
+<p>Resets the event log channel value.  </p>
+<hr />
+<h2 id="fun">Fun</h2>
+<p>Fun commands are things like emotes, random games, and others.  </p>
+<h4 id="afox-fox-type">a!fox [Fox type]</h4>
+<p>Get a random fox image.<br />
+You can also get a random fox image of a specific type.<br />
+Example: <code>a!fox fen</code></p>
+<blockquote>
+<p><strong>Fox types:</strong><br />
+Fennec / Fen<br />
+Arctic / White / Snow<br />
+Red<br />
+Gray / Grey  </p>
+</blockquote>
+<div class="admonition tip">
+<p class="admonition-title">Don't ping me, bro.</p>
+<p>For a lot of the emote commands, you do not need to ping someone.<br />
+You can simply type a server member's name and commands like <code>a!slap</code> will function just fine.<br />
+Example: <code>a!slap Odaya</code>  </p>
+<p>It even works with nicknames as well! Keep note that it is CaSe-SeNsItIvE.</p>
+</div>
+<h4 id="aboop-member">a!boop [member]</h4>
+<p>Boop a friend or someone random in a server.
+Usage: <code>a!boop @Odaya#8088</code></p>
+<h4 id="aslap-member">a!slap [member]</h4>
+<p>Slap your friends and other members in a server.<br />
+Usage: <code>a!slap @Odaya#8088</code></p>
+<h4 id="apat-member">a!pat [member]</h4>
+<p>Give your friends a nice pat on the head.
+Usage: <code>a!pat @Odaya#8088</code></p>
+<div class="admonition tip">
+<p class="admonition-title">Sometimes there is nobody around...</p>
+<p>You can use these commands on yourself.<br />
+But you also can do just the emote command and it'll do something different.</p>
+</div>
+<h4 id="ahug-member">a!hug [member]</h4>
+<p>Give somebody a hug. Especially when they need one!
+Usage: <code>a!hug @Odaya#8088</code></p>
+<h4 id="auwu">a!uwu</h4>
+<p>You know you want to.  </p>
+<h4 id="akill-member">a!kill [member]</h4>
+<p>Kill someone with a random death message
+Usage: <code>a!kill @Odaya#8088</code></p>
+<hr />
+<h2 id="nonitrotm">NoNitro™</h2>
+<p>Be able to use custom emojis (included animated ones) without the need for Discord Nitro.<br />
+(Tho you should still try and get Nitro bc you're supporting the platform you're using.)</p>
+<h4 id="nmsg">nmsg:</h4>
+<p>Converts any {bracket  emotes} into real physical emotes from an emote pack.<br />
+Usage: <code>nmsg: Wow. I love Portal {as}</code>  </p>
+<div class="admonition warning">
+<p class="admonition-title">NoNitro relies on webhooks for this to work.</p>
+<p>Please be sure to have the bot create and manage webhooks in addition to use external emojis.<br />
+You can disable this for your server using a!disable.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">NoNitro isn't available yet.</p>
+<p>We will announce when this feature becomes available.</p>
+</div>
+<hr />
+<h2 id="extras">Extras</h2>
+<p>Small commands such as a!info.</p>
+<div class="admonition warn">
+<p class="admonition-title">This is a core module</p>
+<p>You cannot disable this.</p>
+</div>
+<h4 id="ainfo">a!info</h4>
+<p>Get basic info on the bot.<br />
+This includes helpful links, the bot version, and its uptime.</p>
+<h4 id="auptime">a!uptime</h4>
+<p>Dedicated uptime command to show how long the bot has been online for.  </p>
+<h4 id="aguildinfo">a!guildinfo</h4>
+<p>Gives information about your server.  </p>
+<h4 id="auserinfo">a!userinfo</h4>
+<p>Gives information about a member.  </p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../mods/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Modules
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../helplinks/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Help
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            © ./Odaya 2021
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d892486b.min.js"></script>
+      
+    
+  </body>
+</html>
